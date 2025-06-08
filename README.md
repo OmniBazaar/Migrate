@@ -2,6 +2,8 @@
 
 This repository contains tools for migrating users from the old OmniCoin to the new OmniCoin smart contract.
 
+This module will need to be integrated with the OmniWallet to allow users to connect or create a web3 wallet, enter their legacy username and password, and have their legacy OmniCoin balance migrated to the new  OmniCoin and added to their web3 wallet. This will probably require runnning a legacy witness node (witness_node.exe) on our OmniBazaar server, so that legacy user balances can be looked up.
+
 ## Blockchain Scanner
 
 The `scan_balances.py` script scans the old OmniCoin blockchain and extracts account balances for users with non-zero balances.
