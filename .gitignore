@@ -62,3 +62,6 @@ witness_node/*
 Omnibazaar-v1--JS/*
 programs/*
 libraries/*
+
+# Deprecated directories
+Omnibazaar-v1--JS/
