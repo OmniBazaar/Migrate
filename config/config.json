@@ -1,0 +1,27 @@
+{
+    "server": {
+        "port": 8090,
+        "host": "localhost",
+        "wsPath": "/ws"
+    },
+    "data": {
+        "accountsPath": "data/accounts.json",
+        "balancesPath": "data/balances.json",
+        "assetsPath": "data/assets.json",
+        "walletPath": "wallet.json"
+    },
+    "logging": {
+        "level": "info",
+        "errorLogPath": "error.log",
+        "combinedLogPath": "combined.log",
+        "console": true
+    },
+    "security": {
+        "maxLoginAttempts": 3,
+        "sessionTimeout": 3600000,
+        "rateLimit": {
+            "windowMs": 60000,
+            "maxRequests": 100
+        }
+    }
+} 
