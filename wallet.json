@@ -1,0 +1,7 @@
+{
+  "chain_id": "1.3.0",
+  "cipher_keys": "",
+  "ws_server": "ws://localhost:8090/ws",
+  "ws_user": "",
+  "ws_password": ""
+}

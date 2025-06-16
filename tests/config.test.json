@@ -1,0 +1,27 @@
+{
+  "blockchain": {
+    "testnet": true,
+    "nodeUrl": "ws://localhost:8090",
+    "chainId": "test-chain-id"
+  },
+  "database": {
+    "type": "sqlite",
+    "path": ":memory:"
+  },
+  "auth": {
+    "jwtSecret": "test-secret-key",
+    "tokenExpiration": "1h"
+  },
+  "testData": {
+    "testUser": {
+      "username": "testuser",
+      "password": "testpass123",
+      "publicKey": "TEST5KjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqK",
+      "privateKey": "5KjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqK"
+    },
+    "testBalance": {
+      "asset": "OMNI",
+      "amount": "1000.00000"
+    }
+  }
+} 

@@ -1,0 +1,27 @@
+Logging RPC to file: logs\rpc\rpc.log
+Please use the set_password method to initialize a new wallet before continuing
+new >>> list_accounts "publisher" 50
+[[
+    "publisher",
+    "1.2.123"
+  ],[
+    "referrer",
+    "1.2.126"
+  ],[
+    "relaxed-committee-account",
+    "1.2.2"
+  ],[
+    "social",
+    "1.2.129"
+  ],[
+    "temp-account",
+    "1.2.4"
+  ],[
+    "welcome",
+    "1.2.9"
+  ],[
+    "witness-account",
+    "1.2.1"
+  ]
+]
+new >>> 

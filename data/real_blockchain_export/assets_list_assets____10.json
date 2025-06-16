@@ -1,0 +1,306 @@
+Logging RPC to file: logs\rpc\rpc.log
+Please use the set_password method to initialize a new wallet before continuing
+new >>> list_assets "" 10
+[{
+    "id": "1.3.107",
+    "symbol": "ADA",
+    "precision": 4,
+    "issuer": "1.2.0",
+    "options": {
+      "max_supply": "1000000000000000",
+      "market_fee_percent": 0,
+      "max_market_fee": "1000000000000000",
+      "issuer_permissions": 511,
+      "flags": 128,
+      "core_exchange_rate": {
+        "base": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        },
+        "quote": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        }
+      },
+      "whitelist_authorities": [],
+      "blacklist_authorities": [],
+      "whitelist_markets": [],
+      "blacklist_markets": [],
+      "description": "1 Cardano token",
+      "extensions": []
+    },
+    "dynamic_asset_data_id": "2.3.107",
+    "bitasset_data_id": "2.4.7"
+  },{
+    "id": "1.3.124",
+    "symbol": "AUD",
+    "precision": 4,
+    "issuer": "1.2.0",
+    "options": {
+      "max_supply": "1000000000000000",
+      "market_fee_percent": 0,
+      "max_market_fee": "1000000000000000",
+      "issuer_permissions": 511,
+      "flags": 128,
+      "core_exchange_rate": {
+        "base": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        },
+        "quote": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        }
+      },
+      "whitelist_authorities": [],
+      "blacklist_authorities": [],
+      "whitelist_markets": [],
+      "blacklist_markets": [],
+      "description": "1 Australian dollar",
+      "extensions": []
+    },
+    "dynamic_asset_data_id": "2.3.124",
+    "bitasset_data_id": "2.4.24"
+  },{
+    "id": "1.3.104",
+    "symbol": "BCH",
+    "precision": 4,
+    "issuer": "1.2.0",
+    "options": {
+      "max_supply": "1000000000000000",
+      "market_fee_percent": 0,
+      "max_market_fee": "1000000000000000",
+      "issuer_permissions": 511,
+      "flags": 128,
+      "core_exchange_rate": {
+        "base": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        },
+        "quote": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        }
+      },
+      "whitelist_authorities": [],
+      "blacklist_authorities": [],
+      "whitelist_markets": [],
+      "blacklist_markets": [],
+      "description": "1 Bitcoin Cash token",
+      "extensions": []
+    },
+    "dynamic_asset_data_id": "2.3.104",
+    "bitasset_data_id": "2.4.4"
+  },{
+    "id": "1.3.110",
+    "symbol": "BTC",
+    "precision": 4,
+    "issuer": "1.2.0",
+    "options": {
+      "max_supply": "1000000000000000",
+      "market_fee_percent": 0,
+      "max_market_fee": "1000000000000000",
+      "issuer_permissions": 511,
+      "flags": 128,
+      "core_exchange_rate": {
+        "base": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        },
+        "quote": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        }
+      },
+      "whitelist_authorities": [],
+      "blacklist_authorities": [],
+      "whitelist_markets": [],
+      "blacklist_markets": [],
+      "description": "1 Bitcoin token",
+      "extensions": []
+    },
+    "dynamic_asset_data_id": "2.3.110",
+    "bitasset_data_id": "2.4.10"
+  },{
+    "id": "1.3.100",
+    "symbol": "BTS",
+    "precision": 4,
+    "issuer": "1.2.0",
+    "options": {
+      "max_supply": "1000000000000000",
+      "market_fee_percent": 0,
+      "max_market_fee": "1000000000000000",
+      "issuer_permissions": 511,
+      "flags": 128,
+      "core_exchange_rate": {
+        "base": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        },
+        "quote": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        }
+      },
+      "whitelist_authorities": [],
+      "blacklist_authorities": [],
+      "whitelist_markets": [],
+      "blacklist_markets": [],
+      "description": "1 Bitshares token",
+      "extensions": []
+    },
+    "dynamic_asset_data_id": "2.3.100",
+    "bitasset_data_id": "2.4.0"
+  },{
+    "id": "1.3.122",
+    "symbol": "CAD",
+    "precision": 4,
+    "issuer": "1.2.0",
+    "options": {
+      "max_supply": "1000000000000000",
+      "market_fee_percent": 0,
+      "max_market_fee": "1000000000000000",
+      "issuer_permissions": 511,
+      "flags": 128,
+      "core_exchange_rate": {
+        "base": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        },
+        "quote": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        }
+      },
+      "whitelist_authorities": [],
+      "blacklist_authorities": [],
+      "whitelist_markets": [],
+      "blacklist_markets": [],
+      "description": "1 Canadian dollar",
+      "extensions": []
+    },
+    "dynamic_asset_data_id": "2.3.122",
+    "bitasset_data_id": "2.4.22"
+  },{
+    "id": "1.3.123",
+    "symbol": "CHF",
+    "precision": 4,
+    "issuer": "1.2.0",
+    "options": {
+      "max_supply": "1000000000000000",
+      "market_fee_percent": 0,
+      "max_market_fee": "1000000000000000",
+      "issuer_permissions": 511,
+      "flags": 128,
+      "core_exchange_rate": {
+        "base": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        },
+        "quote": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        }
+      },
+      "whitelist_authorities": [],
+      "blacklist_authorities": [],
+      "whitelist_markets": [],
+      "blacklist_markets": [],
+      "description": "1 Swiss franc",
+      "extensions": []
+    },
+    "dynamic_asset_data_id": "2.3.123",
+    "bitasset_data_id": "2.4.23"
+  },{
+    "id": "1.3.120",
+    "symbol": "CNY",
+    "precision": 4,
+    "issuer": "1.2.0",
+    "options": {
+      "max_supply": "1000000000000000",
+      "market_fee_percent": 0,
+      "max_market_fee": "1000000000000000",
+      "issuer_permissions": 511,
+      "flags": 128,
+      "core_exchange_rate": {
+        "base": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        },
+        "quote": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        }
+      },
+      "whitelist_authorities": [],
+      "blacklist_authorities": [],
+      "whitelist_markets": [],
+      "blacklist_markets": [],
+      "description": "1 Chinese yuan",
+      "extensions": []
+    },
+    "dynamic_asset_data_id": "2.3.120",
+    "bitasset_data_id": "2.4.20"
+  },{
+    "id": "1.3.105",
+    "symbol": "EOS",
+    "precision": 4,
+    "issuer": "1.2.0",
+    "options": {
+      "max_supply": "1000000000000000",
+      "market_fee_percent": 0,
+      "max_market_fee": "1000000000000000",
+      "issuer_permissions": 511,
+      "flags": 128,
+      "core_exchange_rate": {
+        "base": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        },
+        "quote": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        }
+      },
+      "whitelist_authorities": [],
+      "blacklist_authorities": [],
+      "whitelist_markets": [],
+      "blacklist_markets": [],
+      "description": "1 EOS token",
+      "extensions": []
+    },
+    "dynamic_asset_data_id": "2.3.105",
+    "bitasset_data_id": "2.4.5"
+  },{
+    "id": "1.3.101",
+    "symbol": "ETH",
+    "precision": 4,
+    "issuer": "1.2.0",
+    "options": {
+      "max_supply": "1000000000000000",
+      "market_fee_percent": 0,
+      "max_market_fee": "1000000000000000",
+      "issuer_permissions": 511,
+      "flags": 128,
+      "core_exchange_rate": {
+        "base": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        },
+        "quote": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        }
+      },
+      "whitelist_authorities": [],
+      "blacklist_authorities": [],
+      "whitelist_markets": [],
+      "blacklist_markets": [],
+      "description": "1 Ether token",
+      "extensions": []
+    },
+    "dynamic_asset_data_id": "2.3.101",
+    "bitasset_data_id": "2.4.1"
+  }
+]
+new >>> 

@@ -1,7 +1,7 @@
 import WebSocket from 'ws';
 import { createLogger, format, transports } from 'winston';
 import { readFileSync } from 'fs';
-import { Config } from './config';
+import { Config } from '../../config';
 
 interface Account {
     id: string;

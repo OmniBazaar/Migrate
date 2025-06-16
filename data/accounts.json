@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1.2.0",
+    "name": "testuser",
+    "owner_key": "OMNI5KjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqK",
+    "active_key": "OMNI6KjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqK",
+    "memo_key": "OMNI7KjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqK"
+  },
+  {
+    "id": "1.2.1",
+    "name": "testuser2",
+    "owner_key": "OMNI8KjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqK",
+    "active_key": "OMNI9KjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqK",
+    "memo_key": "OMNI0KjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqK"
+  },
+  {
+    "id": "1.2.2",
+    "name": "recipient",
+    "owner_key": "OMNIaKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqK",
+    "active_key": "OMNIbKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqK",
+    "memo_key": "OMNIcKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqKjJqK"
+  }
+] 

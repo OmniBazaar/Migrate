@@ -2,7 +2,7 @@ import WebSocket from 'ws';
 import { createLogger, format, transports } from 'winston';
 import { createInterface } from 'readline';
 import { readFileSync, writeFileSync } from 'fs';
-import { Config, loadConfig } from './config';
+import { Config, loadConfig } from '../../config';
 
 interface WalletData {
     chain_id: string;
@@ -29,7 +29,7 @@ interface Balance {
 }
 
 export class VirtualWallet {
-    private ws: WebSocket;
+    private ws!: WebSocket; // Definite assignment assertion - initialized in connect()
     private connected: boolean;
     private messageQueue: Map<number, (response: any) => void>;
     private messageId: number;
@@ -147,11 +147,11 @@ export class VirtualWallet {
         });
     }
 
-    public async createWallet(password: string): Promise<boolean> {
+    public async createWallet(_password: string): Promise<boolean> {
         try {
             this.walletData = {
                 chain_id: '1.3.0', // OmniCoin chain ID
-                cipher_keys: '', // Will be encrypted with password
+                cipher_keys: '', // Will be encrypted with password in future implementation
                 ws_server: `ws://${this.config.server.host}:${this.config.server.port}${this.config.server.wsPath}`,
                 ws_user: '',
                 ws_password: ''

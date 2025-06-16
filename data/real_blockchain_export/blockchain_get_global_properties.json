@@ -1,0 +1,344 @@
+Logging RPC to file: logs\rpc\rpc.log
+Please use the set_password method to initialize a new wallet before continuing
+new >>> get_global_properties
+{
+  "id": "2.0.0",
+  "parameters": {
+    "current_fees": {
+      "parameters": [[
+          0,{
+            "fee": 2000000,
+            "price_per_kbyte": 1000000
+          }
+        ],[
+          1,{
+            "fee": 500000
+          }
+        ],[
+          2,{
+            "fee": 0
+          }
+        ],[
+          3,{
+            "fee": 2000000
+          }
+        ],[
+          4,{}
+        ],[
+          5,{
+            "basic_fee": 100000,
+            "price_per_kbyte": 100000
+          }
+        ],[
+          6,{
+            "fee": 2000000,
+            "price_per_kbyte": 100000
+          }
+        ],[
+          7,{
+            "fee": 300000
+          }
+        ],[
+          8,{
+            "fee": 50000000
+          }
+        ],[
+          9,{
+            "symbol3": "50000000000",
+            "symbol4": "30000000000",
+            "long_symbol": 500000000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          10,{
+            "fee": 50000000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          11,{
+            "fee": 50000000
+          }
+        ],[
+          12,{
+            "fee": 50000000
+          }
+        ],[
+          13,{
+            "fee": 2000000,
+            "price_per_kbyte": 100000
+          }
+        ],[
+          14,{
+            "fee": 2000000
+          }
+        ],[
+          15,{
+            "fee": 100000
+          }
+        ],[
+          16,{
+            "fee": 10000000
+          }
+        ],[
+          17,{
+            "fee": 50000000
+          }
+        ],[
+          18,{
+            "fee": 100000
+          }
+        ],[
+          19,{
+            "fee": 2500000000
+          }
+        ],[
+          20,{
+            "fee": 2000000
+          }
+        ],[
+          21,{
+            "fee": 2000000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          22,{
+            "fee": 2000000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          23,{
+            "fee": 100000
+          }
+        ],[
+          24,{
+            "fee": 100000
+          }
+        ],[
+          25,{
+            "fee": 100000
+          }
+        ],[
+          26,{
+            "fee": 2000000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          27,{
+            "fee": 0
+          }
+        ],[
+          28,{
+            "fee": 2500000000
+          }
+        ],[
+          29,{
+            "fee": 2000000
+          }
+        ],[
+          30,{
+            "fee": 100000
+          }
+        ],[
+          31,{
+            "fee": 100000
+          }
+        ],[
+          32,{
+            "fee": 0
+          }
+        ],[
+          33,{
+            "fee": 2500000000
+          }
+        ],[
+          34,{
+            "fee": 100000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          35,{
+            "fee": 100000
+          }
+        ],[
+          36,{}
+        ],[
+          37,{
+            "fee": 2000000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          38,{
+            "fee": 500000,
+            "price_per_output": 500000
+          }
+        ],[
+          39,{
+            "fee": 500000,
+            "price_per_output": 500000
+          }
+        ],[
+          40,{
+            "fee": 500000
+          }
+        ],[
+          41,{}
+        ],[
+          42,{
+            "fee": 2000000
+          }
+        ],[
+          43,{}
+        ],[
+          44,{
+            "fee": 2000000
+          }
+        ],[
+          45,{}
+        ],[
+          46,{
+            "fee": 0
+          }
+        ],[
+          47,{
+            "fee": 0
+          }
+        ],[
+          48,{
+            "fee": 0
+          }
+        ],[
+          49,{
+            "fee": 0
+          }
+        ],[
+          50,{
+            "fee": 0
+          }
+        ],[
+          51,{
+            "fee": 2000000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          52,{
+            "fee": 0,
+            "price_per_kbyte": 10
+          }
+        ],[
+          53,{
+            "fee": 0,
+            "price_per_kbyte": 10
+          }
+        ],[
+          54,{
+            "fee": 2000000,
+            "price_per_kbyte": 1000000
+          }
+        ],[
+          55,{
+            "fee": 2000000
+          }
+        ],[
+          56,{
+            "fee": 2000000
+          }
+        ],[
+          57,{
+            "fee": 0
+          }
+        ],[
+          58,{
+            "fee": 100000
+          }
+        ],[
+          59,{
+            "fee": 100000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          60,{
+            "fee": 0
+          }
+        ],[
+          61,{
+            "fee": 100000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          62,{
+            "fee": 0
+          }
+        ],[
+          63,{
+            "fee": 100000
+          }
+        ]
+      ],
+      "scale": 2000
+    },
+    "block_interval": 10,
+    "maintenance_interval": 3600,
+    "maintenance_skip_slots": 3,
+    "committee_proposal_review_period": 1209600,
+    "maximum_transaction_size": 2048,
+    "maximum_block_size": 2000000,
+    "maximum_time_until_expiration": 86400,
+    "maximum_proposal_lifetime": 2419200,
+    "maximum_asset_whitelist_authorities": 10,
+    "maximum_asset_feed_publishers": 10,
+    "maximum_authority_membership": 10,
+    "reserve_percent_of_fee": 3000,
+    "network_percent_of_fee": 3000,
+    "cashback_vesting_period_seconds": 2592000,
+    "cashback_vesting_threshold": 10000000,
+    "allow_non_member_whitelists": false,
+    "witness_pay_per_block": 1000000,
+    "worker_budget_per_day": "50000000000",
+    "max_predicate_opcode": 1,
+    "fee_liquidation_threshold": 10000000,
+    "accounts_per_fee_scale": 1000,
+    "account_fee_scale_bitshifts": 4,
+    "max_authority_depth": 2,
+    "maximum_escrow_lifetime": 7776000,
+    "maximum_listing_lifetime": 15552000,
+    "listing_ban_threshold": 3,
+    "maximum_listing_priority_fee": 200,
+    "witness_count_term": 20,
+    "committee_count": 11,
+    "pop_weights": {
+      "referral": 2000,
+      "listings": 2000,
+      "reputation": 2000,
+      "trust": 2000,
+      "reliability": 2000,
+      "verification": 0,
+      "extensions": []
+    },
+    "extensions": {}
+  },
+  "next_available_vote_id": 40,
+  "active_committee_members": [],
+  "active_witnesses": [
+    "1.6.1",
+    "1.6.2",
+    "1.6.3",
+    "1.6.4",
+    "1.6.5",
+    "1.6.6",
+    "1.6.7",
+    "1.6.8",
+    "1.6.9",
+    "1.6.10",
+    "1.6.11",
+    "1.6.12",
+    "1.6.13",
+    "1.6.14",
+    "1.6.15",
+    "1.6.16",
+    "1.6.17",
+    "1.6.18",
+    "1.6.19",
+    "1.6.20"
+  ]
+}
+new >>> 

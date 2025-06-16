@@ -1,0 +1,24 @@
+Logging RPC to file: logs\rpc\rpc.log
+Please use the set_password method to initialize a new wallet before continuing
+new >>> get_dynamic_global_properties
+{
+  "id": "2.1.0",
+  "head_block_number": 0,
+  "head_block_id": "0000000000000000000000000000000000000000",
+  "time": "2018-10-31T00:00:00",
+  "current_witness": "1.6.0",
+  "next_maintenance_time": "1970-01-01T00:00:00",
+  "last_budget_time": "1970-01-01T00:00:00",
+  "witness_budget": 0,
+  "accounts_registered_this_interval": 36,
+  "recently_missed_count": 0,
+  "current_aslot": 0,
+  "recent_slots_filled": "340282366920938463463374607431768211455",
+  "dynamic_flags": 0,
+  "last_irreversible_block_num": 0,
+  "referral_bonus": 0,
+  "sale_bonus": 0,
+  "founder_bonus": 0,
+  "witness_bonus": 0
+}
+new >>> 
